@@ -1,0 +1,83 @@
+@import "../settings/colors";
+
+.header-container {
+  display: flex;
+  height: 100vh;
+}
+
+.header-img {
+  background-image: url(../../assets/Home-Hero-Image.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position-x: right;
+  width: 50%;
+}
+
+.header-nav {
+  padding: 3.7rem 0 0 0;
+}
+
+.header-account {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  span a{
+    font-size: 1.4rem;
+    color: $secondTextColor;
+    text-decoration: none;
+    padding: 1rem;
+    &:hover {
+      border: 0.75px solid $color3;
+    }
+  }
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  padding-top: 1.4rem;
+
+  li {
+    color: $primaryTextColor;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+    &:hover {
+      border: 0.75px solid $primaryTextColor;
+    }
+  }
+}
+
+.header-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: $primaryTextColor;
+    letter-spacing: -0.76px;
+    font-weight: 400;
+  }
+  .header-decoration {
+    height: 3.3rem;
+    width: 25rem;
+    background-image: url(../../assets/Decoration.svg);
+  }
+  .header-nav-content {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 3.6rem;
+      text-align: center;
+      color: $primaryTextColor;
+      border: 0.75px solid $primaryTextColor;
+      font-weight: 300;
+
+    }
+  }
+}
