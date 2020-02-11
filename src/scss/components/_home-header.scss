@@ -8,9 +8,8 @@
 .header-img {
   background-image: url(../../assets/Home-Hero-Image.jpg);
   background-repeat: no-repeat;
-  background-size: 150%;
   background-position-x: right;
-  width: 50%;
+  width: 50vw;
 }
 
 .header-nav {
@@ -26,12 +25,15 @@
     font-size: 1.4rem;
     color: $secondTextColor;
     text-decoration: none;
-    padding: 1rem;
+
   }
 
   span {
+    padding: 1rem;
+
     &:hover {
       border: 0.75px solid $color3;
+
     }
   }
 }
@@ -41,18 +43,21 @@
   justify-content: flex-end;
   list-style-type: none;
   padding-top: 1.4rem;
+
   li {
     text-align: center;
+    padding: 1rem 2rem;
     &:hover {
       border: 0.75px solid $primaryTextColor;
     }
+
     .active {
       border: 0.75px solid $primaryTextColor;
     }
   }
+
   li a {
     color: $primaryTextColor;
-    padding: 1rem 2rem;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -89,6 +94,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 6.5rem;
+
     div a {
       width: 31rem;
       height: 12rem;
@@ -104,6 +110,7 @@
       color: $primaryTextColor;
       font-weight: 300;
     }
+
     div:last-child a {
       margin-left: 4.4rem;
     }
