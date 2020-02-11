@@ -1,18 +1,46 @@
 import {Component} from "react";
 import React from "react";
-// import {Link} from "react-router-dom";
-// import * as Scroll from 'react-scroll';
-// import { animateScroll as scroll } from "react-scroll";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 export class HomeHeaderMenu extends Component {
-    render () {
+    render() {
         return (
             <ul className='header-menu'>
-                <li>Start</li>
-                <li>O co chodzi?</li>
-                <li>O nas</li>
-                <li>Fundacja i organizacje</li>
-                <li>Kontakt</li>
+                <li><Link
+                    activeClass="active"
+                    to=""
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Start</Link></li>
+                <li><Link
+                    activeClass="active"
+                    to=""
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>O co chodzi?</Link></li>
+                <li><Link
+                    activeClass="active"
+                    to=""
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>O nas</Link></li>
+                <li><Link
+                    activeClass="active"
+                    to=""
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Fundacja i organizacje</Link></li>
+                <li><Link
+                    activeClass="active"
+                    to=""
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Kontakt</Link></li>
             </ul>
         )
     }

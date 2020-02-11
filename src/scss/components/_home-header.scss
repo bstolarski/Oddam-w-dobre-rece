@@ -14,7 +14,7 @@
 }
 
 .header-nav {
-  padding: 3.7rem 0 0 0;
+  padding: 3.7rem 15rem 0 0;
 }
 
 .header-account {
@@ -22,11 +22,14 @@
   justify-content: flex-end;
   align-items: center;
 
-  span a{
+  span a {
     font-size: 1.4rem;
     color: $secondTextColor;
     text-decoration: none;
     padding: 1rem;
+  }
+
+  span {
     &:hover {
       border: 0.75px solid $color3;
     }
@@ -35,49 +38,74 @@
 
 .header-menu {
   display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   padding-top: 1.4rem;
-
   li {
+    text-align: center;
+    &:hover {
+      border: 0.75px solid $primaryTextColor;
+    }
+    .active {
+      border: 0.75px solid $primaryTextColor;
+    }
+  }
+  li a {
     color: $primaryTextColor;
     padding: 1rem 2rem;
     font-size: 1.8rem;
     cursor: pointer;
-
-    &:hover {
-      border: 0.75px solid $primaryTextColor;
-    }
   }
 }
 
 .header-main-content {
+  padding: 22rem 27.5rem 0 6.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  h1 {
-    font-size: 3.8rem;
-    text-align: center;
-    color: $primaryTextColor;
-    letter-spacing: -0.76px;
-    font-weight: 400;
+  .header-title {
+    h1 {
+      width: 67.4rem;
+      padding-bottom: 2.5rem;
+      font-size: 3.8rem;
+      line-height: 5.5rem;
+      text-align: center;
+      color: $primaryTextColor;
+      letter-spacing: -0.76px;
+      font-weight: 400;
+    }
+
+    .header-decoration {
+      margin: auto;
+      height: 3.3rem;
+      width: 25rem;
+      background-image: url(../../assets/Decoration.svg);
+    }
   }
-  .header-decoration {
-    height: 3.3rem;
-    width: 25rem;
-    background-image: url(../../assets/Decoration.svg);
-  }
+
   .header-nav-content {
     display: flex;
     justify-content: space-between;
-    p {
+    padding-top: 6.5rem;
+    div a {
+      width: 31rem;
+      height: 12rem;
+      border: 0.75px solid $primaryTextColor;
+      display: flex;
+      flex-basis: 50%;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
       font-size: 3.6rem;
+      line-height: 4.5rem;
       text-align: center;
       color: $primaryTextColor;
-      border: 0.75px solid $primaryTextColor;
       font-weight: 300;
-
+    }
+    div:last-child a {
+      margin-left: 4.4rem;
     }
   }
 }
