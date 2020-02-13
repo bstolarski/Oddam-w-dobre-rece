@@ -8,14 +8,14 @@ export class HomeHeaderMenu extends Component {
             <ul className='header-menu'>
                 <li><Link
                     activeClass="active"
-                    to=""
+                    to="start"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}>Start</Link></li>
                 <li><Link
                     activeClass="active"
-                    to=""
+                    to="whats"
                     spy={true}
                     smooth={true}
                     offset={-70}

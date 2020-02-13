@@ -3,5 +3,36 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 385px;
+}
+
+.three-columns-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  flex-basis: 20%;
+  text-align: center;
+
+  h2 {
+    font-size: 9rem;
+    line-height: 12.2rem;
+    font-weight: 300;
+    color: $color2;
+  }
+  h3 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    font-weight: 400;
+    color: $primaryTextColor;
+  }
+  p {
+    font-size: 1.6rem;
+    font-family: $font-alt;
+    line-height: 1.8rem;
+    color: $primaryTextColor;
+    font-weight: 300;
+    letter-spacing: -0.32px;
+  }
 }

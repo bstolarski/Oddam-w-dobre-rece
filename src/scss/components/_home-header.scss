@@ -2,7 +2,6 @@
 
 .header-container {
   display: flex;
-  height: 100vh;
 }
 
 .header-img {
@@ -10,6 +9,7 @@
   background-repeat: no-repeat;
   background-position-x: right;
   width: 50vw;
+  height: 963px;
 }
 
 .header-nav {
@@ -17,6 +17,7 @@
 }
 
 .header-account {
+  height: 3.6rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -39,14 +40,16 @@
 }
 
 .header-menu {
+  height: 7rem;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  padding-top: 1.4rem;
+  padding: 1.4rem 0;
 
   li {
     text-align: center;
     padding: 1rem 2rem;
+
     &:hover {
       border: 0.75px solid $primaryTextColor;
     }
@@ -81,13 +84,6 @@
       letter-spacing: -0.76px;
       font-weight: 400;
     }
-
-    .header-decoration {
-      margin: auto;
-      height: 3.3rem;
-      width: 25rem;
-      background-image: url(../../assets/Decoration.svg);
-    }
   }
 
   .header-nav-content {
@@ -115,4 +111,10 @@
       margin-left: 4.4rem;
     }
   }
+}
+.header-decoration {
+  margin: auto;
+  height: 3.3rem;
+  width: 25rem;
+  background-image: url(../../assets/Decoration.svg);
 }

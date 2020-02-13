@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import HomeHeader from "./HomeHeader/HomeHeader";
 import {HomeThreeColumns} from "./HomeThreeColumns/HomeThreeColumns";
+import {HomeSimpleSteps} from "./HomeSimpleSteps/HomeSimpleSteps";
 
 export default class Home extends Component {
     render() {
@@ -8,7 +9,8 @@ export default class Home extends Component {
             <>
                 <div className='container'>
                     <HomeHeader/>
-                    <HomeThreeColumns/>
+                    <HomeThreeColumns id='start' name='start'/>
+                    <HomeSimpleSteps id='whats' name='whats'/>
                 </div>
             </>
         )
