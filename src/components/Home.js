@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import HomeHeader from "./HomeHeader/HomeHeader";
 import {HomeThreeColumns} from "./HomeThreeColumns/HomeThreeColumns";
 import {HomeSimpleSteps} from "./HomeSimpleSteps/HomeSimpleSteps";
+import {HomeAboutUs} from "./HomeAboutUs/HomeAboutUs";
 
 export default class Home extends Component {
     render() {
@@ -11,6 +12,7 @@ export default class Home extends Component {
                     <HomeHeader/>
                     <HomeThreeColumns id='start' name='start'/>
                     <HomeSimpleSteps id='whats' name='whats'/>
+                    <HomeAboutUs id='about' name='about'/>
                 </div>
             </>
         )
