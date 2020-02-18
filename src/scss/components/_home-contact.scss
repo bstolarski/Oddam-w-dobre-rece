@@ -1,17 +1,26 @@
 .contact-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   height: 100vh;
   background-image: url(../../assets/Background-Contact-Form.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+
+.contact-container-bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .contact-form-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-basis: 30%;
 
   .contact-form-title {
     font-size: 3.8rem;
@@ -24,6 +33,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
+
     &-label {
       font-size: 1.6rem;
       font-weight: 700;

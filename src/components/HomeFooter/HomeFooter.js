@@ -9,8 +9,8 @@ export class HomeFooter extends Component {
             <footer className='home-footer'>
                 <p className='footer-copyright'>Copyright by Coders Lab</p>
                 <div className="footer-socials">
-                    <a href='#'><img className='footer-socials-fb' src={facebook} alt='facebook'/></a>
-                    <a href='#'><img className='footer-socials-ig' src={instagram} alt='instagram'/></a>
+                    <a href=''><img className='footer-socials-fb' src={facebook} alt='facebook'/></a>
+                    <a href=''><img className='footer-socials-ig' src={instagram} alt='instagram'/></a>
                 </div>
             </footer>
         )

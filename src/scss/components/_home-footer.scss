@@ -1,17 +1,23 @@
 .home-footer {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  &-copyright {
-    width: 50vw;
-    text-align: left;
-    color: $primaryTextColor;
-    font-size: 1.8rem;
-    font-weight: 300;
-  }
+  align-self: flex-end;
+  margin-bottom: 2.2rem;
 }
+
+.footer-copyright {
+  margin-left: 50%;
+  color: $primaryTextColor;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
 .footer-socials {
-  display: flex;
-  justify-content: flex-end;
-  width: 50vw;
+  margin-right: 80px;
+
+  a {
+    margin-left: 2rem;
+  }
 }
