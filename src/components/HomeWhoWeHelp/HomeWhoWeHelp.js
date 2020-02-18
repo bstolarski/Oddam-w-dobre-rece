@@ -8,10 +8,9 @@ export class HomeWhoWeHelp extends Component {
     };
 
 
-    handleChangeMain = (choose, pages) => {
+    handleChangeMain = (choose) => {
         this.setState({
             currentChooseMain: choose,
-            pages: pages
         })
     };
 
