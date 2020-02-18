@@ -1,0 +1,17 @@
+.home-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  &-copyright {
+    width: 50vw;
+    text-align: left;
+    color: $primaryTextColor;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+}
+.footer-socials {
+  display: flex;
+  justify-content: flex-end;
+  width: 50vw;
+}

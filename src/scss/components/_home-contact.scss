@@ -1,0 +1,32 @@
+.contact-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../../assets/Background-Contact-Form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .contact-form-title {
+    font-size: 3.8rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.76px;
+    font-weight: 400;
+  }
+
+  .form-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    &-label {
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+}
