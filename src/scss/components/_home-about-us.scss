@@ -6,8 +6,9 @@
 .about-us-img {
   background-image: url(../../assets/People.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 50vw;
-  height: 935px;
+  height: 100vh;
 }
 .about-us-content {
   display: flex;

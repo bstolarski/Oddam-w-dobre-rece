@@ -1,6 +1,6 @@
 import {Component} from "react";
 import React from "react";
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
 
 export class HomeHeaderMenu extends Component {
     render() {

@@ -12,7 +12,6 @@ export function WhoWeHelpChoose(props) {
             props.eventClick(value);
         }
     };
-
     return (
         <div className='who-we-help-main-choose'>
             <label className={select === 'Fundation' ? 'btn-choose-label checked' : 'btn-choose-label'}>

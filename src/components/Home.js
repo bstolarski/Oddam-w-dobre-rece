@@ -13,7 +13,7 @@ export default class Home extends Component {
                     <HomeHeader/>
                     <HomeThreeColumns id='start' name='start'/>
                     <HomeSimpleSteps id='whats' name='whats'/>
-                    <HomeAboutUs id='about' name='about'/>
+                    <HomeAboutUs/>
                     <HomeWhoWeHelp id='whowehelp' name='whowehelp'/>
                 </div>
             </>
