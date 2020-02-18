@@ -22,7 +22,7 @@ export class HomeContact extends Component {
 
     render() {
         return (
-            <section className='contact-container'>
+            <section name='contact' className='contact-container'>
                 <div className='contact-container-bg'>
                     <div className="contact-form-content">
                         <h2 className="contact-form-title">Skontaktuj się z nami</h2>

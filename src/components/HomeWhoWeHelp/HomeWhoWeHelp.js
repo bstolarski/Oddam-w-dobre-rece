@@ -7,7 +7,6 @@ export class HomeWhoWeHelp extends Component {
         currentChooseMain: "Fundation"
     };
 
-
     handleChangeMain = (choose) => {
         this.setState({
             currentChooseMain: choose,
@@ -16,7 +15,7 @@ export class HomeWhoWeHelp extends Component {
 
     render() {
         return (
-            <section className='who-we-help-container'>
+            <section name='fundation' className='who-we-help-container'>
                 <h2>Komu pomagamy?</h2>
                 <div className='header-decoration'/>
                 <WhoWeHelpChoose eventClick={this.handleChangeMain}/>

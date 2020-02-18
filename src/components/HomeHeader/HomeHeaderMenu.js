@@ -18,28 +18,24 @@ export class HomeHeaderMenu extends Component {
                     to="whats"
                     spy={true}
                     smooth={true}
-                    offset={-70}
                     duration={500}>O co chodzi?</Link></li>
                 <li><Link
                     activeClass="active"
-                    to=""
+                    to="aboutUs"
                     spy={true}
                     smooth={true}
-                    offset={-70}
                     duration={500}>O nas</Link></li>
                 <li><Link
                     activeClass="active"
-                    to=""
+                    to="fundation"
                     spy={true}
                     smooth={true}
-                    offset={-70}
                     duration={500}>Fundacja i organizacje</Link></li>
                 <li><Link
                     activeClass="active"
-                    to=""
+                    to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
                     duration={500}>Kontakt</Link></li>
             </ul>
         )

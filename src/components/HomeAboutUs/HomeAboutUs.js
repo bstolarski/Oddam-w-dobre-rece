@@ -4,7 +4,7 @@ import Signature from '../../assets/Signature.svg';
 export class HomeAboutUs extends Component {
     render() {
         return (
-            <section className='about-us-container'>
+            <section name='aboutUs' className='about-us-container'>
                 <div className='about-us-content'>
                     <div className='about-us-box'>
                         <h2>O nas</h2>
