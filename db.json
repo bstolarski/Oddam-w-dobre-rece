@@ -1,0 +1,116 @@
+{
+  "Fundation": [
+    {
+      "name": "Fundacja Dbam o Zdrowie",
+      "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+      "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+      "page": 1
+    },
+    {
+      "name": "Fundacja Dla dzieci",
+      "mission": "Pomoc dzieciom z ubogich rodzin.",
+      "stuff": "ubrania, meble, zabawki",
+      "page": 1
+    },
+    {
+      "name": "Fundacja Bez domu",
+      "mission": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+      "stuff": "ubrania, jedzenie, ciepłe koce",
+      "page": 1
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 4",
+      "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+      "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+      "page": 2
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 5",
+      "mission": "Pomoc dzieciom z ubogich rodzin.",
+      "stuff": "ubrania, meble, zabawki",
+      "page": 2
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 6",
+      "mission": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+      "stuff": "ubrania, jedzenie, ciepłe koce",
+      "page": 2
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 7",
+      "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+      "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+      "page": 3
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 8",
+      "mission": "Pomoc dzieciom z ubogich rodzin.",
+      "stuff": "ubrania, meble, zabawki",
+      "page": 3
+    },
+    {
+      "name": "Fundacja Lorem Ipsum 9",
+      "mission": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+      "stuff": "ubrania, jedzenie, ciepłe koce",
+      "page": 3
+    }
+  ],
+  "Organization": [
+    {
+      "name": "Organizacja Lorem Ipsum 1",
+      "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+      "stuff": "Egestas, sed, tempus",
+      "page": 1
+    },
+    {
+      "name": "Organizacja Lorem Ipsum 2",
+      "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+      "stuff": "Ut, aliquam, purus, sit, amet",
+      "page": 1
+    },
+    {
+      "name": "Organizacja Lorem Ipsum 3",
+      "mission": "Scelerisque in dictum non consectetur a erat nam.",
+      "stuff": "Mi, quis, hendrerit, dolor",
+      "page": 1
+    },
+    {
+      "name": "Organizacja Lorem Ipsum 4",
+      "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+      "stuff": "Egestas, sed, tempus",
+      "page": 2
+    },
+    {
+      "name": "Organizacja Lorem Ipsum 5",
+      "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+      "stuff": "Ut, aliquam, purus, sit, amet",
+      "page": 2
+    },
+    {
+      "name": "Organizacja Lorem Ipsum 6",
+      "mission": "Scelerisque in dictum non consectetur a erat nam.",
+      "stuff": "Mi, quis, hendrerit, dolor",
+      "page": 2
+    }
+  ],
+  "Local": [
+    {
+      "name": "Zbiórka Lorem Ipsum 1",
+      "mission": "Scelerisque in dictum non consectetur a erat nam.",
+      "stuff": "Egestas, sed, tempus",
+      "page": 1
+    },
+    {
+      "name": "Zbiórka Lorem Ipsum 2",
+      "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+      "stuff": "Ut, aliquam, purus, sit, amet",
+      "page": 1
+    },
+    {
+      "name": "Zbiórka Lorem Ipsum 3",
+      "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+      "stuff": "Mi, quis, hendrerit, dolor",
+      "page": 1
+    }
+  ]
+}
