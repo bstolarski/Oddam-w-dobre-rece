@@ -2,8 +2,7 @@ import React from 'react';
 import {HashRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
-
-// import './App.css';
+import Logout from "./components/Logout";
 
 function App() {
     return (
@@ -14,6 +13,7 @@ function App() {
                     <Route exact path="/Login" component={() => <Login title='Zaloguj się' repeatPassword={false}/>}/>
                     <Route exact path="/Register"
                            component={() => <Login title='Załóż konto' repeatPassword={true}/>}/>
+                    <Route exact path='/Logout' component={Logout}/>
                 </Switch>
             </>
         </HashRouter>

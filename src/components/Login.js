@@ -6,7 +6,10 @@ export default class Login extends Component {
     state = {
         email: '',
         password: '',
-        passwordRepeat: ''
+        passwordRepeat: '',
+        emailError: false,
+        passwordError: false,
+        passwordRepeatError: false
     };
 
     handleInputChange = e => {
@@ -37,6 +40,15 @@ export default class Login extends Component {
         } else {
             this.setState({
                 passwordError: false
+            })
+        }
+        if (this.state.passwordRepeat.length < 6 || this.state.passwordRepeat !== this.state.password) {
+            this.setState({
+                passwordRepeatError: true
+            })
+        }else {
+            this.setState({
+                passwordRepeatError: false
             })
         }
     };
@@ -70,6 +82,8 @@ export default class Login extends Component {
                                         Powtórz hasło
                                         <input type="password" name="passwordRepeat" value={this.state.passwordRepeat}
                                                onChange={this.handleInputChange}/>
+                                        {this.state.passwordRepeatError ?
+                                            <span className='contact-error'>Podane hasło jest niezgodne</span> : ''}
                                     </label> : ''}
                             </div>
                             <div className='login-btn-content'>

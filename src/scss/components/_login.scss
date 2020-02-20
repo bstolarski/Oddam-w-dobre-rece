@@ -59,11 +59,11 @@
     border: none;
     text-decoration: none;
     color: #000;
-    font: 300 18px/32px $font-base;
-    padding: 7px 12px;
+    font: 300 1.8rem/3.2rem $font-base;
+    padding: 0.7rem 1.2rem;
     background-color: transparent;
     &:hover {
-      border: 0.75px solid #3c3c3c;
+      border: 0.75px solid $primaryTextColor;
     }
   }
 }
