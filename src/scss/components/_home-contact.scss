@@ -97,8 +97,11 @@
     border: 1px solid #fad648;
   }
 }
+.contact-error {
+  color: red;
+}
 .contact-correct-form {
-  color: $color2;
+  color: green;
   font-weight: 700;
   font-size: 1.4rem;
   text-align: center;

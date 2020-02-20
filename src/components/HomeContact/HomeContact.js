@@ -80,14 +80,15 @@ export class HomeContact extends Component {
                         <h2 className="contact-form-title">Skontaktuj się z nami</h2>
                         <div className="header-decoration"/>
                         {this.state.correctData ?
-                            <p className='contact-correct-form'>Formularz został wysłany!</p> : ''}
+                            <p className='contact-correct-form'>Waidomość została wysłana!<br/> Wkrótce się
+                                skontaktujemy.</p> : ''}
                         <form className="contact-form" onSubmit={this.handleSubmit}>
                             <div className="form-inputs">
                                 <label className='form-inputs-label'>Wpisz swoje imię:
                                     <input onInput={this.handleInput} placeholder='Krzysztof' type="text" id="name"
                                            name="name" value={this.state.name}/>
                                     {this.state.nameError ?
-                                        <span className='contact-error'>Imię powinno być jednym wyrazem!</span> : ''}
+                                        <span className='contact-error'>Podane imię jest nieprawidłowe!</span> : ''}
                                 </label>
                                 <label className='form-inputs-label'>Wpisz swój email:
                                     <input onInput={this.handleInput} placeholder='abc@xyz.pl'
