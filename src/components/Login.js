@@ -46,7 +46,7 @@ export default class Login extends Component {
             this.setState({
                 passwordRepeatError: true
             })
-        }else {
+        } else {
             this.setState({
                 passwordRepeatError: false
             })

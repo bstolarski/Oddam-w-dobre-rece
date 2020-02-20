@@ -69,6 +69,11 @@ export class HomeContact extends Component {
         };
         if (!this.state.nameError || !this.state.emailError || !this.state.messageError) {
             SendFormRestApiServices(data);
+            this.setState({
+                name: "",
+                email:"",
+                message:""
+            })
         }
     };
 
@@ -85,13 +90,13 @@ export class HomeContact extends Component {
                         <form className="contact-form" onSubmit={this.handleSubmit}>
                             <div className="form-inputs">
                                 <label className='form-inputs-label'>Wpisz swoje imię:
-                                    <input onInput={this.handleInput} placeholder='Krzysztof' type="text" id="name"
+                                    <input onChange={this.handleInput} placeholder='Krzysztof' type="text" id="name"
                                            name="name" value={this.state.name}/>
                                     {this.state.nameError ?
                                         <span className='contact-error'>Podane imię jest nieprawidłowe!</span> : ''}
                                 </label>
                                 <label className='form-inputs-label'>Wpisz swój email:
-                                    <input onInput={this.handleInput} placeholder='abc@xyz.pl'
+                                    <input onChange={this.handleInput} placeholder='abc@xyz.pl'
                                            type="text" id="email" name="email"
                                            value={this.state.email}/>
                                     {this.state.emailError ?
@@ -99,7 +104,7 @@ export class HomeContact extends Component {
                                 </label>
                             </div>
                             <label className='form-inputs-label'>Wpisz swoją wiadomość:
-                                <textarea onInput={this.handleInput} id="message"
+                                <textarea onChange={this.handleInput} id="message"
                                           name="message" rows="4" cols="50"
                                           value={this.state.message}
                                           placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
