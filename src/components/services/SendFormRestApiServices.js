@@ -1,4 +1,4 @@
-export default function SendFormRestApiServices(data) {
+export default function SendFormRestApiServices(data, event) {
     fetch('https://fer-api.coderslab.pl/v1/portfolio/contact', {
         method: "POST",
         headers: {
@@ -9,11 +9,10 @@ export default function SendFormRestApiServices(data) {
     })
         .then(res => res.json())
         .then(res => {
-            console.log(res);
             if (res.status === 'success') {
-                console.log('sukces!');
+                event(true);
             } else {
-                console.log('coś poszlo nie tak');
+                event(false);
             }
         })
         .catch(err => console.log(err))

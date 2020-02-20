@@ -10,7 +10,7 @@ export class HomeContact extends Component {
         nameError: false,
         emailError: false,
         messageError: false,
-        correctData: false
+        correctData: ""
     };
 
     handleInput = e => {
@@ -26,6 +26,18 @@ export class HomeContact extends Component {
             this.setState({
                 message: e.target.value
             });
+        }
+    };
+
+    eventHandler = e => {
+        if (e) {
+            this.setState({
+                correctData: true
+            })
+        }else {
+            this.setState({
+                correctData: false
+            })
         }
     };
 
@@ -68,7 +80,7 @@ export class HomeContact extends Component {
             message: this.state.message
         };
         if (!this.state.nameError || !this.state.emailError || !this.state.messageError) {
-            SendFormRestApiServices(data);
+            SendFormRestApiServices(data, this.eventHandler);
             this.setState({
                 name: "",
                 email:"",
