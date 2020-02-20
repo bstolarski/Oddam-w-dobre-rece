@@ -1,18 +1,13 @@
 import {Component} from "react";
 import React from "react";
 import {Link} from "react-scroll";
+import {NavLink} from "react-router-dom";
 
 export class HomeHeaderMenu extends Component {
     render() {
         return (
             <ul className='header-menu'>
-                <li><Link
-                    activeClass="active"
-                    to="start"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>Start</Link></li>
+                <li><NavLink to="/">Start</NavLink></li>
                 <li><Link
                     activeClass="active"
                     to="whats"
