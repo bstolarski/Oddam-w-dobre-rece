@@ -1,0 +1,50 @@
+.form-header-container {
+  display: flex;
+}
+.form-header-img {
+  background-image: url(../../assets/Form-Hero-Image.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 50vw;
+  height: 100vh;
+}
+.form-header-main-content {
+  padding: 22rem 27.5rem 0 6.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .form-header-title {
+    h1 {
+      width: 67.4rem;
+      padding-bottom: 2.5rem;
+      font-size: 3.8rem;
+      line-height: 5.5rem;
+      text-align: center;
+      color: $primaryTextColor;
+      letter-spacing: -0.76px;
+      font-weight: 400;
+    }
+    h2 {
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 300;
+      line-height: 5.5rem;
+    }
+  }
+  .form-header-box {
+    display: flex;
+    div {
+      position: relative;
+      &::before {
+        content: "";
+        margin-top: 2.5rem;
+        position: absolute;
+        width: 13rem;
+        height: 13rem;
+        border: 0.75px solid #3C3C3C;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

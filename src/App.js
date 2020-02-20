@@ -3,6 +3,7 @@ import {HashRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
 import Logout from "./components/Logout";
+import Form from "./components/Form/Form";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                     <Route exact path="/Register"
                            component={() => <Login title='Załóż konto' repeatPassword={true}/>}/>
                     <Route exact path='/Logout' component={Logout}/>
+                    <Route exact path='/oddaj-rzeczy' component={Form}/>
                 </Switch>
             </>
         </HashRouter>
