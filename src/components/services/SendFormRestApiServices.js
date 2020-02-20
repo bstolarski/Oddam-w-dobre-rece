@@ -10,5 +10,11 @@ export default function SendFormRestApiServices(data) {
         .then(res => res.json())
         .then(res => {
             console.log(res);
+            if (res.status === 'success') {
+                console.log('sukces!');
+            } else {
+                console.log('coś poszlo nie tak');
+            }
         })
+        .catch(err => console.log(err))
 }
