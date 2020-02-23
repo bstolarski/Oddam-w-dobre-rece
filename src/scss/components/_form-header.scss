@@ -1,3 +1,6 @@
+.form-header {
+  height: 100vh;
+}
 .form-header-container {
   display: flex;
 }
@@ -7,7 +10,7 @@
   background-repeat: no-repeat;
   background-position-x: right;
   width: 50vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .form-header-main-content {
@@ -70,5 +73,21 @@
         }
       }
     }
+  }
+}
+.form-header-main-important {
+  display: flex;
+  align-items: center;
+  padding-left: 14rem;
+  height: 20vh;
+  background-color: $color3;
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+  }
+  p {
+    font-size: 2.2rem;
+    line-height: 3rem;
   }
 }
