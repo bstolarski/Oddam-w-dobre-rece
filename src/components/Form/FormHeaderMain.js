@@ -10,11 +10,27 @@ export class FormHeaderMain extends Component {
                     <div className='header-decoration'/>
                     <h2>Wystarczą 4 proste kroki:</h2>
                 </div>
-                <div className='form-header-box'>
-                    <div>1 <br/>Wybierz <br/>rzeczy</div>
-                    <div>2 <br/>Spakuj je <br/>w worki</div>
-                    <div>3 <br/>Wybierz <br/>fundację</div>
-                    <div>4 <br/>Zamów <br/>kuriera</div>
+                <div className='form-header-steps'>
+                    <div className='form-header-steps-box'>
+                        <div>
+                            <h3>1</h3><p><br/>Wybierz <br/>rzeczy</p>
+                        </div>
+                    </div>
+                    <div className='form-header-steps-box'>
+                        <div>
+                            <h3>2</h3><p><br/>Spakuj je <br/>w worki</p>
+                        </div>
+                    </div>
+                    <div className='form-header-steps-box'>
+                        <div>
+                            <h3>3</h3><p><br/>Wybierz <br/>fundację</p>
+                        </div>
+                    </div>
+                    <div className='form-header-steps-box'>
+                        <div>
+                            <h3>4</h3><p><br/>Zamów <br/>kuriera</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -85,7 +85,12 @@ export class HomeContact extends Component {
                 name: "",
                 email:"",
                 message:""
-            })
+            });
+            setTimeout(()=>{
+                this.setState({
+                    correctData: false
+                })
+            }, 10000)
         }
     };
 

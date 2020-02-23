@@ -1,6 +1,7 @@
 .form-header-container {
   display: flex;
 }
+
 .form-header-img {
   background-image: url(../../assets/Form-Hero-Image.jpg);
   background-repeat: no-repeat;
@@ -8,12 +9,14 @@
   width: 50vw;
   height: 100vh;
 }
+
 .form-header-main-content {
-  padding: 22rem 27.5rem 0 6.6rem;
+  padding: 13rem 27.5rem 0 6.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   .form-header-title {
     h1 {
       width: 67.4rem;
@@ -25,25 +28,46 @@
       letter-spacing: -0.76px;
       font-weight: 400;
     }
+
     h2 {
+      margin-top: 2.6rem;
       text-align: center;
       font-size: 4rem;
       font-weight: 300;
       line-height: 5.5rem;
     }
   }
-  .form-header-box {
+
+  .form-header-steps {
     display: flex;
-    div {
+    margin-top: 4rem;
+
+    .form-header-steps-box {
       position: relative;
-      &::before {
-        content: "";
-        margin-top: 2.5rem;
+      border: 0.75px solid #3C3C3C;
+      width: 12rem;
+      height: 12rem;
+      transform: rotate(45deg);
+      margin-right: 2rem;
+
+      div {
         position: absolute;
-        width: 13rem;
-        height: 13rem;
-        border: 0.75px solid #3C3C3C;
-        transform: rotate(45deg);
+        left: 43%;
+        top: 43%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        width: 80%;
+        h3 {
+          text-align: center;
+          font-weight: 300;
+          font-size: 3.2rem;
+          line-height: 2.7rem;
+        }
+        p {
+          text-align: center;
+          font-size: 2.2rem;
+          line-height: 2.7rem;
+          font-weight: 300;
+        }
       }
     }
   }
