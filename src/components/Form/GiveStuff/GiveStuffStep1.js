@@ -20,46 +20,46 @@ export default class GiveStuffStep1 extends Component {
                         <h3>Zaznacz co chcesz oddać:</h3>
                         <div className='box-input-container'>
                             <label
-                                className={this.state.currentSelect === '1' ? 'btn-choose-label checked' : 'btn-choose-label'}>
+                                className={this.state.currentSelect === '1' ? ' checked' : ''}>
                                 <input className='btn-choose-input'
-                                       type="radio"
-                                       name="radio"
+                                       type="checkbox"
+                                       name="checkbox"
                                        value="1"
                                        onClick={this.handleSelectChange}
                                 /> ubrania, które nadają się do ponownego użycia
                             </label>
                             <label
-                                className={this.state.currentSelect === '2' ? 'btn-choose-label checked' : 'btn-choose-label'}>
+                                className={this.state.currentSelect === '2' ? ' checked' : ""}>
                                 <input className='btn-choose-input'
-                                       type="radio"
-                                       name="radio"
+                                       type="checkbox"
+                                       name="checkbox"
                                        value="2"
                                        onClick={this.handleSelectChange}
                                 /> ubrania, do wyrzucenia
                             </label>
                             <label
-                                className={this.state.currentSelect === '3' ? 'btn-choose-label checked' : 'btn-choose-label'}>
+                                className={this.state.currentSelect === '3' ? ' checked' : ''}>
                                 <input className='btn-choose-input'
-                                       type="radio"
-                                       name="radio"
+                                       type="checkbox"
+                                       name="checkbox"
                                        value="3"
                                        onClick={this.handleSelectChange}
                                 /> zabawki
                             </label>
                             <label
-                                className={this.state.currentSelect === '4' ? 'btn-choose-label checked' : 'btn-choose-label'}>
+                                className={this.state.currentSelect === '4' ? ' checked' : ''}>
                                 <input className='btn-choose-input'
-                                       type="radio"
-                                       name="radio"
+                                       type="checkbox"
+                                       name="checkbox"
                                        value="4"
                                        onClick={this.handleSelectChange}
                                 /> książki
                             </label>
                             <label
-                                className={this.state.currentSelect === '5' ? 'btn-choose-label checked' : 'btn-choose-label'}>
+                                className={this.state.currentSelect === '5' ? ' checked' : ''}>
                                 <input className='btn-choose-input'
-                                       type="radio"
-                                       name="radio"
+                                       type="checkbox"
+                                       name="checkbox"
                                        value="5"
                                        onClick={this.handleSelectChange}
                                 /> inne
