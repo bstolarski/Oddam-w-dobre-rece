@@ -19,6 +19,7 @@ npm start
 ## Live version
 
 The live version of current state of application is available at https://bstolarski.github.io/Oddam-w-dobre-rece/
+
 The project is still under development.
 
 ## Built With
