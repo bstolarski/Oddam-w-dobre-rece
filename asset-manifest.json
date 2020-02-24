@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Oddam-w-dobre-rece/static/css/main.a62ea8c5.chunk.css",
+    "main.js": "/Oddam-w-dobre-rece/static/js/main.5c1d6b66.chunk.js",
+    "main.js.map": "/Oddam-w-dobre-rece/static/js/main.5c1d6b66.chunk.js.map",
+    "runtime-main.js": "/Oddam-w-dobre-rece/static/js/runtime-main.82285d3e.js",
+    "runtime-main.js.map": "/Oddam-w-dobre-rece/static/js/runtime-main.82285d3e.js.map",
+    "static/js/2.87d94332.chunk.js": "/Oddam-w-dobre-rece/static/js/2.87d94332.chunk.js",
+    "static/js/2.87d94332.chunk.js.map": "/Oddam-w-dobre-rece/static/js/2.87d94332.chunk.js.map",
+    "index.html": "/Oddam-w-dobre-rece/index.html",
+    "precache-manifest.3d02d72cec8248887962dc7177f6330b.js": "/Oddam-w-dobre-rece/precache-manifest.3d02d72cec8248887962dc7177f6330b.js",
+    "service-worker.js": "/Oddam-w-dobre-rece/service-worker.js",
+    "static/css/main.a62ea8c5.chunk.css.map": "/Oddam-w-dobre-rece/static/css/main.a62ea8c5.chunk.css.map",
+    "static/js/2.87d94332.chunk.js.LICENSE.txt": "/Oddam-w-dobre-rece/static/js/2.87d94332.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Oddam-w-dobre-rece/static/media/People.6fa36651.jpg",
+    "static/media/Facebook.svg": "/Oddam-w-dobre-rece/static/media/Facebook.df65b6c0.svg",
+    "static/media/Icon-1.svg": "/Oddam-w-dobre-rece/static/media/Icon-1.91147906.svg",
+    "static/media/Icon-2.svg": "/Oddam-w-dobre-rece/static/media/Icon-2.db91e33e.svg",
+    "static/media/Icon-3.svg": "/Oddam-w-dobre-rece/static/media/Icon-3.2cfe9dfe.svg",
+    "static/media/Icon-4.svg": "/Oddam-w-dobre-rece/static/media/Icon-4.436df0aa.svg",
+    "static/media/Instagram.svg": "/Oddam-w-dobre-rece/static/media/Instagram.703479fd.svg",
+    "static/media/Signature.svg": "/Oddam-w-dobre-rece/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82285d3e.js",
+    "static/js/2.87d94332.chunk.js",
+    "static/css/main.a62ea8c5.chunk.css",
+    "static/js/main.5c1d6b66.chunk.js"
+  ]
+}
