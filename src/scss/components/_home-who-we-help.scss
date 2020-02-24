@@ -1,0 +1,79 @@
+.who-we-help-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  color: $primaryTextColor;
+
+  h2 {
+    font-size: 3.8rem;
+    line-height: 5.5rem;
+    font-weight: 400;
+    letter-spacing: -0.76px;
+    margin-bottom: 2.5rem;
+  }
+}
+
+input.btn-choose-input[type="radio"] {
+  display: none;
+}
+
+.btn-choose-label {
+  font-size: 2.4rem;
+  line-height: 8.5rem;
+  padding: 2.3rem 4.2rem;
+  &.checked {
+    border: 0.75px solid $primaryTextColor;
+  }
+}
+.who-we-help-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 7rem;
+  h3 {
+    width: 60%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+}
+.who-we-help-list {
+  width: 90%;
+  list-style: none;
+  margin-top: 6.6rem;
+  .who-we-help-li {
+    padding: 20px 0;
+    p {
+      font-weight: 300;
+      font-family: $font-alt;
+    }
+    .who-we-help-title {
+      font-size: 2.6rem;
+    }
+    .who-we-help-mission {
+      font-size: 1.8rem;
+      font-style: italic;
+    }
+    .who-we-help-stuff {
+      font-size: 1.8rem;
+      text-align: right;
+    }
+  }
+}
+.btn-choose-page {
+  font-family: $font-base;
+  font-size: 1.8rem;
+  border: none;
+  background-color: transparent;
+  padding: 1.3rem 1.5rem;
+  margin: 2rem 2rem 8rem 0;
+
+  &.checked {
+    border: 1px solid #707070;
+  }
+}

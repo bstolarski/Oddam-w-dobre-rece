@@ -1,0 +1,93 @@
+.form-header {
+  height: 100vh;
+}
+.form-header-container {
+  display: flex;
+}
+
+.form-header-img {
+  background-image: url(../../assets/Form-Hero-Image.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 50vw;
+  height: 80vh;
+}
+
+.form-header-main-content {
+  padding: 13rem 27.5rem 0 6.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form-header-title {
+    h1 {
+      width: 67.4rem;
+      padding-bottom: 2.5rem;
+      font-size: 3.8rem;
+      line-height: 5.5rem;
+      text-align: center;
+      color: $primaryTextColor;
+      letter-spacing: -0.76px;
+      font-weight: 400;
+    }
+
+    h2 {
+      margin-top: 2.6rem;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 300;
+      line-height: 5.5rem;
+    }
+  }
+
+  .form-header-steps {
+    display: flex;
+    margin-top: 4rem;
+
+    .form-header-steps-box {
+      position: relative;
+      border: 0.75px solid #3C3C3C;
+      width: 12rem;
+      height: 12rem;
+      transform: rotate(45deg);
+      margin-right: 2rem;
+
+      div {
+        position: absolute;
+        left: 43%;
+        top: 43%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        width: 80%;
+        h3 {
+          text-align: center;
+          font-weight: 300;
+          font-size: 3.2rem;
+          line-height: 2.7rem;
+        }
+        p {
+          text-align: center;
+          font-size: 2.2rem;
+          line-height: 2.7rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+.form-header-main-important {
+  display: flex;
+  align-items: center;
+  padding-left: 14rem;
+  height: 20vh;
+  background-color: $color3;
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+  }
+  p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}

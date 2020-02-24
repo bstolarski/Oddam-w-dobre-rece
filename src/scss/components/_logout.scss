@@ -1,0 +1,27 @@
+.logout-container {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.80px;
+    font-weight: 400;
+    color: $primaryTextColor;
+    margin-bottom: 4rem;
+  }
+
+  a {
+    margin-top: 4rem;
+    text-decoration: none;
+    color: #000;
+    font: 300 1.8rem/3.2rem $font-base;
+    padding: 0.7rem 1.2rem;
+    background-color: transparent;
+    border: 0.75px solid $primaryTextColor;
+  }
+}

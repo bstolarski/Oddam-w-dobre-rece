@@ -2,14 +2,45 @@
 @import 'settings/fonts';
 //Colors
 @import "settings/colors";
+//Home Header
+@import "components/home-header";
+// 3 Columns
+@import "components/home-three-columns";
+// Simple Steps
+@import "components/home-simple-steps";
+// About Us
+@import "components/home-about-us";
+// Who we help
+@import "components/home-who-we-help";
+// Contact
+@import "components/home-contact";
+// Footer
+@import "components/home-footer";
+// Login / Register
+@import "components/login";
+// Logout
+@import "components/logout";
+//Form Header
+@import "components/form-header";
+// Give Stuff
+@import "components/give-stuff";
+// Give Stuff Steps
+@import "components/give-stuff-steps";
 
 //Reset
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 body {
-font-family: $font-base;
+  font-family: $font-base;
 }
+
+.container {
+  max-width: 1900px;
+  margin: auto;
+}
+

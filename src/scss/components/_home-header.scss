@@ -1,0 +1,120 @@
+@import "../settings/colors";
+
+.header-container {
+  display: flex;
+}
+
+.header-img {
+  background-image: url(../../assets/Home-Hero-Image.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 50vw;
+  height: 100vh;
+}
+
+.header-nav {
+  padding: 3.7rem 15rem 0 0;
+}
+
+.header-account {
+  height: 3.6rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  span a {
+    font-size: 1.4rem;
+    color: $secondTextColor;
+    text-decoration: none;
+
+  }
+
+  span {
+    padding: 1rem;
+
+    &:hover {
+      border: 0.75px solid $color3;
+
+    }
+  }
+}
+
+.header-menu {
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 1.4rem 0;
+
+  li {
+    text-align: center;
+    padding: 1rem 2rem;
+
+    &:hover {
+      border: 0.75px solid $primaryTextColor;
+    }
+  }
+
+  li a {
+    color: $primaryTextColor;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .active {
+    text-decoration: none;
+  }
+}
+
+.header-main-content {
+  padding: 22rem 27.5rem 0 6.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .header-title {
+    h1 {
+      width: 67.4rem;
+      padding-bottom: 2.5rem;
+      font-size: 3.8rem;
+      line-height: 5.5rem;
+      text-align: center;
+      color: $primaryTextColor;
+      letter-spacing: -0.76px;
+      font-weight: 400;
+    }
+  }
+
+  .header-nav-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.5rem;
+
+    div a {
+      width: 31rem;
+      height: 12rem;
+      border: 0.75px solid $primaryTextColor;
+      display: flex;
+      flex-basis: 50%;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 3.6rem;
+      line-height: 4.5rem;
+      text-align: center;
+      color: $primaryTextColor;
+      font-weight: 300;
+    }
+
+    div:last-child a {
+      margin-left: 4.4rem;
+    }
+  }
+}
+
+.header-decoration {
+  margin: auto;
+  height: 3.3rem;
+  width: 25rem;
+  background-image: url(../../assets/Decoration.svg);
+}

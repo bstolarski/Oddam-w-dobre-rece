@@ -1,0 +1,23 @@
+.home-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+  margin-bottom: 2.2rem;
+}
+
+.footer-copyright {
+  margin-left: 50%;
+  color: $primaryTextColor;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.footer-socials {
+  margin-right: 80px;
+
+  a {
+    margin-left: 2rem;
+  }
+}
